@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+
+	<style>
+
+		label {
+
+			font-weight: bold;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container" style="margin-top: 70px; margin-left: 10%;">
+
+		<h2><u>FORM PENDAFTARAN</u></h2>
+
+		<form>
+			<!--Membuat Username -->
+			<label for="username">Username :</label>
+			<input type="text" id="username">
+				
+				<br><br>
+
+			<!--Membuat Password -->
+			<label for="password">Password :</label>
+			<input type="password" id="password">
+				
+				<br><br>
+
+			<!--Membuat Radio Button (Jenis Kelamin),yang hanya dapat di pilih salah satunya -->
+			<label for="pria">Pria</label>
+			<input type="radio" id="pria" name="jeniskelamin">
+
+			<label for="wanita">Wanita</label>
+			<input type="radio" id="wanita" name="jeniskelamin">
+				
+				<br><br>
+
+			<!--Membuat ChechBox (Hobi),yang bisa di pilih satu atau lebih -->
+			<label for="olahraga">Olahraga</label>
+			<input type="checkbox" id="olahraga">
+
+			<label for="ngoding">Ngoding</label>
+			<input type="checkbox" id="ngoding">
+
+			<label for="baca">Baca</label>
+			<input type="checkbox" id="baca">
+				
+				<br><br>
+
+			<!--Membuat Combo Box (Kota) -->
+			<h3>Kota</h3>
+			<select>
+				<option>Jakarta</option>
+				<option>Medan</option>
+				<option>Bandung</option>
+				<option>Surabaya</option>
+				<option>Yogyakarta</option>
+				<option>Bali</option>
+			</select>
+				
+				<br><br>
+
+			<!--Membuat Textarea (Kolom box komentar) -->
+			<h3>Komentar Anda</h3>
+			<textarea></textarea>
+				
+				<br><br>
+				
+			<!--Membuat Tombol Kirim & Reset -->
+			<button type="submit"><b>Kirim</b></button>
+			<button type="reset"><b>Reset</b></button>
+		</form>
+
+	</div>
+
+
+
+</body>
+</html>
